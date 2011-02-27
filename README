@@ -1,0 +1,7 @@
+A simple python script to allow the printing of ASCII formatted text calendars, along the lines of the cal unix utility, but with the added ability to 'tag' arbitrary dates with an arbitrary tag string.  The primary usage is to allow the calendar to display the current date highlighted by surrounding it with ASCII color codes, however the base TaggedTextCalendar class is written to allow for tagging of any arbitrary datetime.date string.
+
+Future development likely will include tagging based on CalDav / Google Calendars, as it would be great to have arbitrary tags for vital events, such as your girlfriend and/or wife's birthday.
+
+Have fun forking this one up.  It's my first git, so don't take it to seriously.
+
+Developmental insipiration came from building the same calendar GeekTool cal/sed hack I've seen on a million desktops, and then having it go screwy on 01/01/11.
